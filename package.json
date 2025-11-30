@@ -1,0 +1,48 @@
+{
+  "name": "tcg-data-collector",
+  "version": "1.0.0",
+  "description": "Comprehensive trading card game data and image collector",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "download:all": "ts-node src/index.ts --all",
+    "download:api": "ts-node src/index.ts --api-only",
+    "download:mtg": "ts-node src/downloaders/mtg.ts",
+    "download:pokemon": "ts-node src/downloaders/pokemon.ts",
+    "download:yugioh": "ts-node src/downloaders/yugioh.ts",
+    "download:fab": "ts-node src/downloaders/fab.ts",
+    "validate": "ts-node src/utils/validator.ts",
+    "export": "ts-node src/utils/exporter.ts"
+  },
+  "keywords": [
+    "trading-cards",
+    "pokemon",
+    "magic-the-gathering",
+    "yugioh",
+    "data-collection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "better-sqlite3": "^12.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "image-size": "^2.0.2",
+    "p-limit": "^5.0.0",
+    "piscina": "^5.1.4",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
