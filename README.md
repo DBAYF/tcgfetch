@@ -20,6 +20,14 @@ A comprehensive data collection tool for the top 10 most popular trading card ga
 9. Star Wars: Unlimited (~500+ cards)
 10. Dragon Ball Super (~1,800+ cards)
 
+## 💻 Platform Support
+
+- ✅ **Windows** - Full support with dedicated setup guide (see [WINDOWS_SETUP.md](WINDOWS_SETUP.md))
+- ✅ **macOS** - Native support
+- ✅ **Linux** - Native support
+
+**Windows Users:** Run `setup-windows.ps1` for automatic setup, or see [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for detailed instructions.
+
 ## 📋 Features
 
 - ✅ Automated data collection from public APIs

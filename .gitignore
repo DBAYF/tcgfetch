@@ -28,3 +28,8 @@ Thumbs.db
 *.tmp
 temp/
 
+# Windows-generated batch files
+run-downloader.bat
+run-yugioh.bat
+validate-data.bat
+
